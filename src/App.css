@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
+.efecto{
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+    color: #fff;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .efecto:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    color: #fff;
+    height: 100%;
+    background: #51c994;
+    transition: all 0.4s ease;
   }
-  to {
-    transform: rotate(360deg);
+  .efecto:hover:before {
+  width: 100%;
   }
+.degradado{
+  --tw-gradient-from: #4373cf; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) 70%;
+}
+.degradado_50{
+  --tw-gradient-from: #4373cf; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) 50%;
+}
+
+.letraCarrusel{
+  color:#3262a0;
+  font-size:1.2rem;
+}
+.animacionSlider{
+  position: relative;
+  animation: 10s slidy infinite alternate ; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+}
+
+
+/*esta parte del código define el movimiento de las imágenes a la izquierda*/
+@keyframes slidy {
+	0% {margin-left: 0;}
+	25% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	50% {margin-left: -100%;}
+	
+	75% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+
+}
+.animacionEmpresas{
+  position: relative;
+  animation: 10s empresas infinite  ; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+}
+
+
+/*esta parte del código define el movimiento de las imágenes a la izquierda*/
+@keyframes empresas {
+	0% {margin-left: 0;}
+	15% {margin-left: 0;}
+	
+	30% {margin-left: -100%;}
+	45% {margin-left: -200%;}
+	
+	60% {margin-left: -300%;}
+	75% {margin-left: -400%;}
+
+	90% {margin-left: -500%;}
+
+
 }
