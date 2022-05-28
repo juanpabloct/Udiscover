@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/juanpabloct/Udiscovere/static/css/main.6fbb1d49.css",
-    "main.js": "/juanpabloct/Udiscovere/static/js/main.6591c69c.js",
-    "static/js/787.34efd688.chunk.js": "/juanpabloct/Udiscovere/static/js/787.34efd688.chunk.js",
-    "static/media/logo.svg": "/juanpabloct/Udiscovere/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/juanpabloct/Udiscovere/index.html",
-    "main.6fbb1d49.css.map": "/juanpabloct/Udiscovere/static/css/main.6fbb1d49.css.map",
-    "main.6591c69c.js.map": "/juanpabloct/Udiscovere/static/js/main.6591c69c.js.map",
-    "787.34efd688.chunk.js.map": "/juanpabloct/Udiscovere/static/js/787.34efd688.chunk.js.map"
+    "main.css": "/Udiscover/static/css/main.6fbb1d49.css",
+    "main.js": "/Udiscover/static/js/main.f56200c4.js",
+    "static/js/787.34efd688.chunk.js": "/Udiscover/static/js/787.34efd688.chunk.js",
+    "static/media/logo.svg": "/Udiscover/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Udiscover/index.html",
+    "main.6fbb1d49.css.map": "/Udiscover/static/css/main.6fbb1d49.css.map",
+    "main.f56200c4.js.map": "/Udiscover/static/js/main.f56200c4.js.map",
+    "787.34efd688.chunk.js.map": "/Udiscover/static/js/787.34efd688.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbb1d49.css",
-    "static/js/main.6591c69c.js"
+    "static/js/main.f56200c4.js"
   ]
 }
